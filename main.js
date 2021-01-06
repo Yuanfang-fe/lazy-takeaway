@@ -7,7 +7,7 @@ axios({
     phone: 'xxx', // 美团账号
     password: 'xxx', // 美团密码
     headless: false,
-    devtools: true,
+    devtools: false,
     rules: {
       // 能接受的价格
       price: {
@@ -34,5 +34,5 @@ axios({
     }
   }
 }).then(res=>{
-  console.log('111')
+  console.log('下单成功')
 })

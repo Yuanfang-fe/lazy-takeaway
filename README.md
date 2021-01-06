@@ -38,3 +38,8 @@
      // productNameList: ['煎饼']
    }
 ```
+
+
+<video id="video" controls="" preload="none" autoplay>
+  <source id="mp4" src="./demo.mp4" type="video/mp4">
+</video>
